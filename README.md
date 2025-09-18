@@ -21,7 +21,7 @@ Click the Zoom logo to view a recording of a training session using this materia
 * `pwd`, `cd`, `ls`  (Where am I, change directory, list directory)
 * `cp`, `mv`, `rm`  (copy, move (also used for rename), delete)
 * `more`, `less`, `head`, `tail`, `cat`  (examine files)
-* `nano`, `vim` (text editors in Linux)
+* `nano` (text editor in Linux)
 
 > Note that most things in Linux are case-sensitive. This applies to commands and file names. e.g. `CD test` will not work to change directories to the "test" folder, while `cd test` will work (assuming there is a folder named "test" in the current folder). Similarly, `Test` and `test` are **different** folders or files.
 
@@ -29,6 +29,7 @@ Click the Zoom logo to view a recording of a training session using this materia
 
 * **Tab completion**- type part of a path or file name and hit tab-key, the shell will auto-complete for you.
   >Note that this may not work for the group directories in `/blue/` since directories are automounted, meaning that they may not show up, or be able to be tab-completed, until you access the directory.
+* **Tab completion with multiple options**- if there are multiple potential completions, hitting the tab-key twice will show you the options.
 * **`history`**: redo something that you did before without retyping (you can also use the :arrow_up: arrow key)
 * **`man`**: getting help. Many built-in Linux applications have **man**ual pages that document their use and options. e.g. `man ls` will bring up the page for the `ls` command, documenting the many options that change how the `ls` command functions.
   * Another way to get help information about an application is using the application's name followed by either the `-h` or `--help` flags. Many applications use this convention to provide documentation to users.
